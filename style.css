@@ -99,3 +99,79 @@ body{background-color: var(--quartearia);}
   margin-left: 0.6rem;
   color: var(--secudaria);
 }
+
+/* FORMULARIO DE REGISTRO DO EVENTO */
+#registro{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 22rem;
+  height: 27rem;
+  margin-top: 3.75rem;
+  padding-left: 1.25rem;
+  border-radius: 5px;
+  background-color: var(--secudaria);
+}
+
+#registro h3{
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  color:var(--quartearia);
+  margin-top: 1.25rem;
+}
+
+.labe_input{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+
+.labe_input label{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--quartearia);
+  margin-bottom: 0.3rem;
+}
+
+.labe_input input, select{
+  width: 19.5rem;
+  height: 2.5rem;
+  border: 1px solid #5B5B0C;
+  border-radius: 0.3rem;
+  padding: 0px 0.5rem;
+  outline: none;
+}
+
+#check_box{
+  margin-top: 1.25rem;
+}
+
+#check_box label{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--quartearia);
+  margin-left: 0.3rem;
+}
+
+#check_box input{
+  width: 15px;
+  height: 15px;
+}
+
+#btn{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--quartearia);
+  background: linear-gradient(180deg, #FCFC1E 12.5%, rgba(255, 107, 0, 0.78) 88.54%);
+  width: 19.5rem;
+  height: 3.1rem;
+  margin-top: 1.25rem;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+}

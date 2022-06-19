@@ -176,6 +176,107 @@ body{background-color: var(--quartearia);}
   border-radius: 5px;
 }
 
+#cronograma_evento{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#cronograma_evento h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 3rem;
+  color: var(--secudaria);
+}
+
+#container-2{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  gap: 2rem;
+  padding-left: 6rem;
+}
+
+.box-card{
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  height: 12rem;
+  border-radius: 5px;
+  background-color: var(--background);
+}
+
+.box-card::before {
+  content: "";
+  max-width: 100%;
+  height: 1.5rem;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 1rem;
+  background: linear-gradient(
+    90.25deg,
+    rgba(243, 29, 0, 0.42) 0.12%,
+    rgba(255, 107, 0, 0.78) 52.11%,
+    #ffff00 96.1%
+  );
+}
+
+#box-info{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0.5rem;
+}
+
+#info-1{
+  display: flex;
+  flex-direction: column;
+}
+
+#data{
+  font-size: 24px;
+  line-height: 31px;
+  font-weight: 700;
+  color: var(--secudaria);
+}
+
+#mes{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--secudaria);
+}
+
+#info-2{
+  display: flex;
+  flex-direction: column;
+}
+
+#dia{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--secudaria);
+}
+
+#live{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+  color: var(--primaria);
+}
+#box-text-info{
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0px 0.5rem;
+  margin-top: 1.5rem;
+  color: var(--secudaria);
+}
+
 /* RESPONSIVIDADE MOBILE*/
 @media(min-width: 425px) and (max-width: 450px) {
 /* Informações e cadastro do evento */

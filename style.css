@@ -16,3 +16,86 @@
 }
 
 body{background-color: var(--quartearia);}
+
+#infor_registro{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/img/photo_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* INFORMAÇÕES DO EVENTO */
+#informe{
+  display: flex;
+  flex-direction: column;
+  overflow-wrap: break-word;
+  width: 30rem;
+  height: 29rem;
+}
+
+
+#informe h1{
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: var(--primaria);
+  margin-top: 3.75rem;
+}
+
+#subtitulo{
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 39px;
+  color: var(--secudaria);
+  margin-top: 2.5rem;
+}
+
+#text{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: var(--terciaria);
+  margin-top: 1.25rem;
+}
+
+#infor_icon{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  /* background-color: tomato; */
+}
+
+#icon_data, #icon_live{
+  display: flex;
+  width: 11rem;
+}
+
+#icon_data img, #icon_live img{
+  width: 30px;
+  height: 30px;
+}
+
+#icon_data i, #icon_live i{
+  align-self: flex-end;
+}
+
+#icon_data p, #icon_live p{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-left: 0.6rem;
+  color: var(--secudaria);
+}

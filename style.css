@@ -176,6 +176,7 @@ body{background-color: var(--quartearia);}
   border-radius: 5px;
 }
 
+/* CARD CRONOGRAMA DO EVENTO */
 #cronograma_evento{
   display: flex;
   flex-direction: column;
@@ -275,6 +276,49 @@ body{background-color: var(--quartearia);}
   margin: 0px 0.5rem;
   margin-top: 1.5rem;
   color: var(--secudaria);
+}
+
+/* INFORMAÇÕES DO PROJETO */
+#infor_iniciativa{
+  display:flex;
+  width: 100%;
+  height: auto;
+  margin-top: 10rem;
+margin-left: 5rem;
+
+}
+
+#infor_container{
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  height: 25rem;
+
+}
+#infor_container h3{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  color: var(--primaria);
+
+}
+#infor_container p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 2rem;
+  color: var(--secudaria);
+}
+
+#infor_img{
+  width: 30rem;
+  height: 25rem;
+  margin-left: 3rem;
+
+}
+#infor_img img{
+  max-width: 100%;
+  display: block;
 }
 
 /* RESPONSIVIDADE MOBILE*/

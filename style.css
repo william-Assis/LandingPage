@@ -315,4 +315,20 @@ body{background-color: var(--quartearia);}
   #registro{
     margin-top: 0rem;
   }
+
+   /* CRONOGRAMA DO EVENTO */
+
+  #cronograma_evento h2{
+    font-size: 36px;
+    line-height: 39px;
+  }
+
+  #container-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 0px;
+  }
 }

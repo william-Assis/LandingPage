@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header id="infor_registro">
     <!-- HTML SEÇÃO INFORMAÇÃO DO EVENTO -->
@@ -33,6 +35,35 @@
           </div>
         </div>
       </div>
+      <!-- HTML FORMULARIO DE CADASTRO DO EVENTO -->
+      <div id="registro">
+        <h3>Participe gratuitamente</h3>
+        <div class="labe_input">
+          <label for="text">Nome</label>
+          <input type="text" name="nome" placeholder="Digite seu nome completo">
+        </div>
+        <div class="labe_input">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail">
+        </div>
+        <div class="labe_input">
+          <label for="formulario">Principal interesse</label>
+          <select name="interesse">
+            <option value="none" disabled selected>Selecione</option>
+            <option value="front end">Desenvolvedor front-end</option>
+            <option value="front end">Web Designer</option>
+            <option value="front end">Desenvolvedor Full Stack</option>
+            <option value="front end">UI/UX Designer</option>
+          </select>
+        </div>
+        <div id="check_box">
+          <input type="checkbox" name="" value="">
+          <label for="">Concordo em receber comunicações</label>
+        </div>
+        <button id="btn">tenho interesse em participar</button>
+      </div>
+    </div>
   </header>
 </body>
+
 </html>

@@ -312,7 +312,6 @@ body{background-color: var(--quartearia);}
   width: 30rem;
   height: 20rem;
   margin-left: 4rem;
-  background-color: tomato;
 }
 #infor_img img{
   width: 100%;
@@ -340,9 +339,53 @@ footer{
   color: var(--secudaria);
 }
 
-/* RESPONSIVIDADE MOBILE*/
+/* RESPONSIVIDADE */
+
+@media(min-width: 451px) and (max-width: 778px){
+  /* INFORMAÇÕES E CADASTRO DO EVENTO */
+  #infor_registro{
+    height: auto;
+  }
+
+  #registro{
+    margin-top: 7rem;
+  }
+
+  #container-2{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 0px;
+  }
+
+  #cronograma_evento h2{
+    font-size: 36px;
+    line-height: 39px;
+    margin-top: 5rem;
+  }
+
+  #infor_iniciativa{
+    margin-top: 6rem;
+  }
+
+  #infor_container{
+    padding-left: 1rem;
+  }
+  
+  #infor_container p{
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  #infor_img{
+    margin-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 @media(min-width: 425px) and (max-width: 450px) {
-/* Informações e cadastro do evento */
+/* INFORMAÇÕES E CADASTRO DO EVENTO */
   #infor_registro{
     height: auto;
   }
@@ -352,7 +395,7 @@ footer{
     height: 25rem;
     margin: 3rem 0px;
     padding-top: 2rem;
-    /* background-color: aquamarine; */
+
   }
   
   #informe h1{
@@ -396,6 +439,7 @@ footer{
   }
 
   /* INFORMAÇÃO DO PROJETO */
+
   #infor_iniciativa{
     display:flex;
     flex-direction: column;
@@ -423,5 +467,210 @@ footer{
 
   #infor_img, #infor{
    display: none
+  }
+  
+  /* FOOTER DO PROJETO */
+  
+  #lista{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  #lista li{
+    font-size: 14px;
+    color: var(--secudaria);
+  }
+}
+
+@media(min-width: 375px) and (max-width: 424px){
+  /* INFORMAÇÕES E CADASTRO DO EVENTO */
+  #infor_registro{
+    height: auto;
+  }
+
+  #informe{
+    width: 20rem;
+    height: 25rem;
+    margin: 3rem 0px;
+    padding-top: 2rem;
+  }
+  
+  #informe h1{
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 0rem;
+  }
+  
+  #subtitulo{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    margin-top: 1rem;
+  }
+  
+  #text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 1rem;
+  }
+
+  #registro{
+    margin-top: 0rem;
+  }
+
+   /* CRONOGRAMA DO EVENTO */
+  
+  #cronograma_evento h2{
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  #container-2{
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 0px;
+  }
+
+  /* INFORMAÇÃO DO PROJETO */
+
+  #infor_iniciativa{
+    margin-top: 5rem;
+  }
+
+  #infor_container{
+    padding: 1rem;
+  }
+
+  #infor_container p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 1rem;
+    color: var(--secudaria);
+  }
+
+  #infor_img, #infor{
+   display: none
+  }
+  
+  /* FOOTER DO PROJETO */
+  footer{
+    display: flex;
+    margin-top: 3rem;
+    max-width: 100%;
+    height: 10vh;
+    background-color: var(--background);
+    justify-content: center;
+  }
+
+  #lista{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  #lista li{
+    font-size: 12px;
+    color: var(--secudaria);
+  }
+}
+
+@media(min-width: 320px) and (max-width: 374px){
+  /* INFORMAÇÕES E CADASTRO DO EVENTO */
+  #infor_registro{
+    height: auto;
+  }
+
+  #informe{
+    width: 20rem;
+    height: 25rem;
+    margin: 3rem 0px;
+    padding-top: 2rem;
+  }
+  
+  #informe h1{
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 0rem;
+  }
+  
+  #subtitulo{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    margin-top: 1rem;
+  }
+  
+  #text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 1rem;
+  }
+
+  #registro{
+    margin-top: 0rem;
+  }
+
+   /* CRONOGRAMA DO EVENTO */
+  
+  #cronograma_evento h2{
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  #container-2{
+    margin-left: 1rem;
+    gap: 2rem;
+    padding-left: 0px;
+  }
+
+  /* INFORMAÇÃO DO PROJETO */
+
+  #infor_iniciativa{
+    margin-top: 5rem;
+
+  }
+
+  #infor_container{
+    padding: 1rem;
+  }
+
+  #infor_container p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 1rem;
+    color: var(--secudaria);
+  }
+
+  #infor_img, #infor{
+   display: none
+  }
+  
+  /* FOOTER DO PROJETO */
+  footer{
+    display: flex;
+    margin-top: 3rem;
+    max-width: 100%;
+    height: 10vh;
+    background-color: var(--background);
+    justify-content: center;
+  }
+
+  #lista{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  #lista li{
+    font-size: 12px;
+    color: var(--secudaria);
   }
 }
